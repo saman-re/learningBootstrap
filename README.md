@@ -1,4 +1,4 @@
-# gobin
+# goobin
 
 ## Project setup
 ```
