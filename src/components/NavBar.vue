@@ -1,7 +1,10 @@
 <template>
 <div dir="rtl">
     <b-navbar toggleable="md" class="py-4 px-5 bg-dark" type="dark" variant="info">
-      <b-navbar-brand class="font-weight-bold" href="#">گوبین</b-navbar-brand>
+      <b-navbar-brand class="font-weight-bold" href="#">
+        <img src="../assets/Goobin.png" alt="Vector" width="30px">
+        گوبین
+        </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse">
         <!-- <template #default="{ expanded }">
         <b-icon v-if="expanded" icon="chevron-bar-up">baz</b-icon>
@@ -10,7 +13,7 @@
       </b-navbar-toggle>
       <b-collapse class="border-bottom-light" id="nav-collapse" is-nav>
       <b-navbar-nav>
-      <b-nav-item-dropdown lazy text="محصولات" right>
+      <b-nav-item-dropdown lazy text="محصولات" right style="color:rgba(255,255,255,1)">
           <b-dropdown-item href="#">چت</b-dropdown-item>
           <b-dropdown-item href="#">وبینار</b-dropdown-item>
         </b-nav-item-dropdown>
@@ -26,3 +29,9 @@
     </b-navbar>
 </div>
 </template>
+
+<style scoped>
+  .nav-link{
+    color:rgba(255,255,255,1) !important;
+  }
+</style>

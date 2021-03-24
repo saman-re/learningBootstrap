@@ -7,7 +7,7 @@
     <div dir="rtl" class="form-group text-right pt-4 px-4">
       <label for="email">ایمیل:</label>
       <input
-        class="form-control"
+        class="form-control form-control-lg py-2"
         type="email"
         autocomplete="off"
         placeholder="ایمیل خود را وارد کنید"
@@ -17,8 +17,8 @@
     <div dir="rtl" class="form-group text-right pt-1 px-4">
       <label for="email">پسورد:</label>
       <input
-        class="form-control"
-        type="email"
+        class="form-control form-control-lg py-2"
+        type="password"
         autocomplete="off"
         placeholder="پسورد خود را وارد کنید"
         id="password"
@@ -28,7 +28,7 @@
       <div class="col-6 text-right">
         <p class="font-italic text-muted pl-1">
           ثبت نام شما به این معنی است که با 
-          <a href="#" class="text-reset">
+          <a href="#" class="text-decoration-none">
           قوانین و مقرارات
           </a>
            ما موافقت می کنید
@@ -42,7 +42,7 @@
     </div>
       <p class="text-center text-md-right mr-md-4 my-3">
       هم اکنون حساب دارید؟
-      <a href="#" class="text-reset font-weight-bold">
+      <a href="#" class="text-decoration-none font-weight-bold">
           ورود
       </a>
       </p>
